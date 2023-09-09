@@ -1,9 +1,7 @@
 <#
   .SYNOPSIS
-  This script is used to garner user information from a single tenant and output that information to a CSV file
-  .NOTES
-  This script leverages the Secure Application model to authenticate to a customer tenant in which you have delegated privledges
-  #>
+  This script is used to garner license information from a single tenant and output that information to a CSV file
+#>
 
     param (
         [Parameter(Mandatory=$true)]
